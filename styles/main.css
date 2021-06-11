@@ -1,0 +1,406 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500,700");
+body {
+  background-color: #f5f5f5;
+  font-family: "Montserrat"; }
+
+.sidenav {
+  height: 100%;
+  /* Full-height: remove this if you want "auto" height */
+  width: 300px;
+  /* Set the width of the sidebar */
+  position: fixed;
+  /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
+  left: 0;
+  background-color: #fff;
+  /* Black */
+  overflow-x: hidden;
+  /* Disable horizontal scroll */ }
+
+
+.sidenav .logo {
+  padding: 0 !important; }
+.sidenav .navigation li {
+  width: 300px; }
+  .sidenav .navigation li a {
+    padding: 6px 10px 6px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    text-decoration: none;
+    color: #333;
+    transition: .5s ease; }
+    .sidenav .navigation li a span {
+      vertical-align: -webkit-baseline-middle !important;
+      vertical-align: middle;
+      padding-right: 25px; }
+.sidenav .navigation a:hover,
+.sidenav .navigation a.active {
+  background-color: #f6a81c; }
+
+[class^="flaticon-"]:before,
+[class*=" flaticon-"]:before,
+[class^="flaticon-"]:after,
+[class*=" flaticon-"]:after {
+  font-size: 32px !important; }
+
+.sidenav .logo svg {
+  padding: 20px 0 7px 55px;
+  width: 60%; }
+
+.client {
+  padding-left: 50px !important;
+  padding: 24px 0;
+  background-color: #ebebeb; }
+  .client h2 {
+    font-weight: 700; }
+  .client h6 {
+    font-weight: 700;
+    padding-right: 2rem; }
+  .client h6, .client p {
+    font-size: .9rem; }
+  .client .date {
+    margin-left: 0; }
+
+.main {
+  margin-left: 300px;
+  text-align: center; }
+  .main .header {
+    background-color: #ebebeb;
+    padding: 32px 0 20px 0 !important;
+    text-align: center; }
+    .main .header ul {
+      display: inline-flex; }
+    .main .header h1 {
+      font-family: "Montserrat";
+      font-weight: 600; }
+
+.btn {
+  background-color: #ccc !important;
+  border: none;
+  border-radius: 50px;
+  width: 120px;
+  height: 35px;
+  margin: 0 10px;
+  transition: .5s all;
+  margin-bottom: 20px; }
+
+.btn:hover,
+.btn.active {
+  background-color: #f6a81c !important; }
+
+#branding .slides-wrapper img, #branding .slides-wrapper video, #youtube .slides-wrapper img, #youtube .slides-wrapper video, #computer .slides-wrapper img, #computer .slides-wrapper video {
+  width: auto !important;
+  height: 500px !important; }
+
+#branding .slides-wrapper img, #branding .slides-wrapper video {
+  width: auto !important;
+  height: 700px !important; }
+
+#youtube .slides-wrapper img, #youtube .slides-wrapper video {
+  margin-top: 8rem; }
+
+#youtube .playarea .slides-wrapper {
+  overflow-y: none; }
+
+#banner .playarea {
+  margin-right: 7rem; }
+
+.playarea {
+  height: 77%;
+  padding-top: 38px;
+  text-align: center; }
+  .playarea #gdn-120x600 .device,
+  .playarea #gdn-160x600 .device,
+  .playarea #gdn-250x250 .device,
+  .playarea #gdn-300x250 .device,
+  .playarea #gdn-300x600 .device,
+  .playarea #gdn-320x50 .device,
+  .playarea #gdn-320x100 .device,
+  .playarea #gdn-336x280 .device,
+  .playarea #gdn-728x90 .device,
+  .playarea #gdn-970x90 .device {
+    width: 1024px;
+    height: 768px; }
+  .playarea #gdn-120x600 .tab-content,
+  .playarea #gdn-160x600 .tab-content,
+  .playarea #gdn-250x250 .tab-content,
+  .playarea #gdn-300x250 .tab-content,
+  .playarea #gdn-300x600 .tab-content,
+  .playarea #gdn-320x50 .tab-content,
+  .playarea #gdn-320x100 .tab-content,
+  .playarea #gdn-336x280 .tab-content,
+  .playarea #gdn-728x90 .tab-content,
+  .playarea #gdn-970x90 .tab-content {
+    overflow: hidden; }
+  .playarea #gdn-120x600 #desktop,
+  .playarea #gdn-160x600 #desktop,
+  .playarea #gdn-250x250 #desktop,
+  .playarea #gdn-300x250 #desktop,
+  .playarea #gdn-300x600 #desktop,
+  .playarea #gdn-320x50 #desktop,
+  .playarea #gdn-320x100 #desktop,
+  .playarea #gdn-336x280 #desktop,
+  .playarea #gdn-728x90 #desktop,
+  .playarea #gdn-970x90 #desktop {
+    padding-top: 37px; }
+    .playarea #gdn-120x600 #desktop .slides-wrapper,
+    .playarea #gdn-160x600 #desktop .slides-wrapper,
+    .playarea #gdn-250x250 #desktop .slides-wrapper,
+    .playarea #gdn-300x250 #desktop .slides-wrapper,
+    .playarea #gdn-300x600 #desktop .slides-wrapper,
+    .playarea #gdn-320x50 #desktop .slides-wrapper,
+    .playarea #gdn-320x100 #desktop .slides-wrapper,
+    .playarea #gdn-336x280 #desktop .slides-wrapper,
+    .playarea #gdn-728x90 #desktop .slides-wrapper,
+    .playarea #gdn-970x90 #desktop .slides-wrapper {
+      overflow-y: hidden !important; }
+  .playarea #gdn-120x600 .tab-content,
+  .playarea #gdn-120x600 .tab-pane,
+  .playarea #gdn-120x600 iframe,
+  .playarea #gdn-120x600 img,
+  .playarea #gdn-160x600 .tab-content,
+  .playarea #gdn-160x600 .tab-pane,
+  .playarea #gdn-160x600 iframe,
+  .playarea #gdn-160x600 img,
+  .playarea #gdn-250x250 .tab-content,
+  .playarea #gdn-250x250 .tab-pane,
+  .playarea #gdn-250x250 iframe,
+  .playarea #gdn-250x250 img,
+  .playarea #gdn-300x250 .tab-content,
+  .playarea #gdn-300x250 .tab-pane,
+  .playarea #gdn-300x250 iframe,
+  .playarea #gdn-300x250 img,
+  .playarea #gdn-300x600 .tab-content,
+  .playarea #gdn-300x600 .tab-pane,
+  .playarea #gdn-300x600 iframe,
+  .playarea #gdn-300x600 img,
+  .playarea #gdn-320x50 .tab-content,
+  .playarea #gdn-320x50 .tab-pane,
+  .playarea #gdn-320x50 iframe,
+  .playarea #gdn-320x50 img,
+  .playarea #gdn-320x100 .tab-content,
+  .playarea #gdn-320x100 .tab-pane,
+  .playarea #gdn-320x100 iframe,
+  .playarea #gdn-320x100 img,
+  .playarea #gdn-336x280 .tab-content,
+  .playarea #gdn-336x280 .tab-pane,
+  .playarea #gdn-336x280 iframe,
+  .playarea #gdn-336x280 img,
+  .playarea #gdn-728x90 .tab-content,
+  .playarea #gdn-728x90 .tab-pane,
+  .playarea #gdn-728x90 iframe,
+  .playarea #gdn-728x90 img,
+  .playarea #gdn-970x90 .tab-content,
+  .playarea #gdn-970x90 .tab-pane,
+  .playarea #gdn-970x90 iframe,
+  .playarea #gdn-970x90 img {
+    height: 100%;
+    width: 100%; }
+  .playarea #gdn-250x250 #desktop .device-content {
+    background: url("../image/banner_svg/gdn_8.svg") top center no-repeat; }
+  .playarea #gdn-250x250 #desktop .slides-wrapper {
+    height: 250px;
+    width: 250px;
+    margin-right: 38px;
+    top: 77px; }
+  .playarea #gdn-300x250 #desktop .device-content {
+    background: url("../image/banner_svg/gdn_1.svg") top center no-repeat; }
+  .playarea #gdn-300x250 #desktop .slides-wrapper {
+    height: 250px;
+    width: 300px;
+    margin-right: 38px;
+    top: 82px; }
+  .playarea #gdn-320x50 #desktop .device-content {
+    background: url("../image/banner_svg/gdn_2.svg") top center no-repeat; }
+  .playarea #gdn-320x50 #desktop .slides-wrapper {
+    height: 50px;
+    width: 320px;
+    margin-right: auto;
+    top: 18.3rem; }
+  .playarea #gdn-336x280 #desktop .device-content {
+    background: url("../image/banner_svg/gdn_10.svg") top center no-repeat; }
+  .playarea #gdn-336x280 #desktop .slides-wrapper {
+    height: 280px;
+    width: 336px;
+    margin-right: auto;
+    top: 4.8rem;
+    left: 19.1rem; }
+  .playarea #gdn-970x90 #desktop .device-content {
+    background: url("../image/banner_svg/gdn_11.svg") top center no-repeat; }
+  .playarea #gdn-970x90 #desktop .slides-wrapper {
+    height: 90px;
+    width: 970px;
+    margin-right: auto;
+    top: 4.8rem; }
+  .playarea #gdn-320x100 #desktop .device-content {
+    background: url("../image/banner_svg/gdn_9.svg") top center no-repeat; }
+  .playarea #gdn-320x100 #desktop .slides-wrapper {
+    height: 100px;
+    width: 320px;
+    margin-right: auto;
+    top: 29rem;
+    right: 73px; }
+  .playarea #gdn-120x600 #desktop .device-content {
+    background: url("../image/banner_svg/gdn_3.svg") top center no-repeat; }
+  .playarea #gdn-120x600 #desktop .slides-wrapper {
+    height: 600px;
+    width: 120px;
+    margin-right: 39px;
+    top: 78px; }
+  .playarea #gdn-728x90 #desktop .device-content {
+    background: url("../image/banner_svg/gdn_4.svg") top center no-repeat; }
+  .playarea #gdn-728x90 #desktop .slides-wrapper {
+    height: 90px;
+    width: 728px;
+    margin-right: 39px;
+    top: 77px; }
+  .playarea #gdn-160x600 #desktop .device-content {
+    background: url("../image/banner_svg/gdn_5.svg") top center no-repeat; }
+  .playarea #gdn-160x600 #desktop .slides-wrapper {
+    height: 600px;
+    width: 160px;
+    margin-right: 39px;
+    top: 77px; }
+  .playarea #gdn-300x600 #desktop .device-content {
+    background: url("../image/banner_svg/gdn_6.svg") top center no-repeat; }
+  .playarea #gdn-300x600 #desktop .slides-wrapper {
+    height: 600px;
+    width: 300px;
+    margin-right: 38px;
+    top: 77px; }
+  .playarea #desktop {
+    padding-top: 37px; }
+    .playarea #desktop .device-content {
+      background: url("../image/svg/desktop-01.svg") top center no-repeat; }
+    .playarea #desktop .slides-wrapper {
+      height: 71%;
+      width: 66.3%; }
+  .playarea #laptop {
+    padding-top: 40px; }
+    .playarea #laptop .device-content {
+      background: url("../image/svg/lap-01.svg") top center no-repeat; }
+    .playarea #laptop .slides-wrapper {
+      height: 86.3%;
+      width: 77.7%; }
+  .playarea #tab {
+    padding-top: 22px; }
+    .playarea #tab .device-content {
+      background: url("../image/svg/tab-01.svg") top center no-repeat;
+      left: 10px !important; }
+    .playarea #tab .slides-wrapper {
+      height: 97%;
+      width: 42%;
+      overflow-y: auto !important; }
+  .playarea #mobile {
+    padding-top: 22px; }
+    .playarea #mobile .device-content {
+      background: url("../image/svg/mobile-01.svg") top center no-repeat;
+      left: 2px !important; }
+    .playarea #mobile .slides-wrapper {
+      height: 97%;
+      width: 25.8%; }
+  .playarea #gdn-bg {
+    padding-top: 102px;
+    padding-left: 10px;
+    height: 770px; }
+    .playarea #gdn-bg .device-content {
+      background: url("../image/3x/Digital Screen.png") top center no-repeat;
+      left: 2px !important; }
+    .playarea #gdn-bg video {
+      height: 540px !important; }
+    .playarea #gdn-bg .slides-wrapper {
+      overflow-y: auto; }
+  .playarea #feed-mob {
+    padding-top: 22px; }
+    .playarea #feed-mob .device-content {
+      background: url("../image/svg/insta-post-01.svg") top center no-repeat;
+      left: 2px !important; }
+    .playarea #feed-mob .slides-wrapper {
+      height: 45%;
+      width: 25.8%;
+      margin-top: 10.5rem;
+      overflow-y: hidden !important; }
+  .playarea #story-mob {
+    padding-top: 22px; }
+    .playarea #story-mob .device-content {
+      background: url("../image/svg/insta-story-01.svg") top center no-repeat;
+      left: 2px !important; }
+    .playarea #story-mob .slides-wrapper {
+      height: 97%;
+      width: 25.8%;
+      overflow-y: hidden !important; }
+      .playarea #story-mob .slides-wrapper img {
+        width: none;
+        height: 100%; }
+  .playarea .ss-button {
+    text-align: center;
+    display: block;
+    padding-top: 20px; }
+    .playarea .ss-button li {
+      display: inline-block; }
+      .playarea .ss-button li a {
+        border-radius: 30px;
+        width: 40px;
+        height: 40px;
+        outline: none;
+        border: none; }
+  .playarea .device {
+    position: relative;
+    width: 1150px;
+    height: 690px;
+    display: inline-block; }
+  .playarea .device-content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none; }
+  .playarea .slides-wrapper {
+    position: relative;
+    z-index: 1;
+    margin: auto;
+    overflow-y: scroll; }
+    .playarea .slides-wrapper img {
+      width: 100%; }
+
+.lang_btn {
+  display: block;
+  margin-right: 3rem; }
+  .lang_btn button {
+    display: block; }
+
+::-webkit-scrollbar {
+  width: .5em; }
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); }
+
+::-webkit-scrollbar-thumb {
+  background-color: #333;
+  outline: 1px solid #f5f5f5;
+  border-radius: 1em; }
+
+#facebook .device {
+  padding-top: 22px; }
+  #facebook .device .device-content {
+    background: url("../image/svg/mobile-fb-01-01.svg") top center no-repeat;
+    left: 2px !important; }
+  #facebook .device .slides-wrapper {
+    height: 45%;
+    width: 25.8%;
+    margin-top: 11rem;
+    overflow-y: hidden !important; }
+
+@media only screen and (max-width: 600px) {
+  header,
+  .main {
+    display: none !important; } }
+
+/*# sourceMappingURL=main.css.map */
