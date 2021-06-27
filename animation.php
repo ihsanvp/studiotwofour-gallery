@@ -1,12 +1,15 @@
 <?php
 
 $animation = [
-    'image/German Design-1920x1080.mp4',
+    // 'image/German Design-1920x1080.mp4',
+    'image/QDB_CX2.mp4',
+    'image/Qinwan Sports Day.mp4',
     'image/QATAR_in.mp4',
     'image/Screensaver.mp4',
     'image/Daily720_2.mp4',
     'image/Bird_FullHd_v3.mp4',
-    'image/Mytea.mp4',
+    'image/My Vodafone App - Generic - 1920X1080_EN.mp4',
+    // 'image/Mytea.mp4',
 ];
 
 ?>
